@@ -1,14 +1,16 @@
-function Navbar() {
-    return (
-        <nav>
-            <h2>Dead by Daylight Companion</h2>
+import { Link } from "react-router-dom";
 
-            <button>Home</button>
-            <button>Survivors</button>
-            <button>Perks</button>
-            <button>Generator</button>
-        </nav>
-    );
+function Navbar() {
+  return (
+    <nav>
+      <h2>DBD Companion</h2>
+
+      <Link to="/">Home</Link>
+      <Link to="/survivors">Survivors</Link>
+      <Link to="/perks">Perks</Link>
+      <Link to="/generator">Generator</Link>
+    </nav>
+  );
 }
 
 export default Navbar;

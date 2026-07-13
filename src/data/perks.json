@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "Sprint Burst",
+    "survivor": "Meg Thomas",
+    "category": "Exhaustion"
+  },
+  {
+    "id": 2,
+    "name": "Bond",
+    "survivor": "Dwight Fairfield",
+    "category": "Aura Reading"
+  }
+]

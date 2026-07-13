@@ -1,17 +1,9 @@
-import Navbar from "./components/Navbar";
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import App from "./App.jsx";
 
-function App() {
-  return (
-    <>
-      <Navbar />
-
-      <h1>Welcome to the Dead by Daylight Companion</h1>
-
-      <p>
-        Build generator, perk database and survivor information coming soon.
-      </p>
-    </>
-  );
-}
-
-export default App;
+createRoot(document.getElementById("root")).render(
+  <StrictMode>
+    <App />
+  </StrictMode>
+);
