@@ -3,12 +3,42 @@
     "id": 1,
     "name": "Sprint Burst",
     "survivor": "Meg Thomas",
-    "category": "Exhaustion"
+    "category": "Exhaustion",
+    "summary": "Gain a burst of speed when you begin running."
   },
   {
     "id": 2,
     "name": "Bond",
     "survivor": "Dwight Fairfield",
-    "category": "Aura Reading"
+    "category": "Aura Reading",
+    "summary": "See the auras of nearby survivors."
+  },
+  {
+    "id": 3,
+    "name": "Windows of Opportunity",
+    "survivor": "Kate Denson",
+    "category": "Chase",
+    "summary": "See nearby pallets, windows and breakable walls."
+  },
+  {
+    "id": 4,
+    "name": "Adrenaline",
+    "survivor": "Meg Thomas",
+    "category": "Endgame",
+    "summary": "Recover and gain speed when the exit gates become powered."
+  },
+  {
+    "id": 5,
+    "name": "Kindred",
+    "survivor": "General",
+    "category": "Aura Reading",
+    "summary": "Reveal useful aura information while a survivor is hooked."
+  },
+  {
+    "id": 6,
+    "name": "Lithe",
+    "survivor": "Feng Min",
+    "category": "Exhaustion",
+    "summary": "Gain a burst of speed after performing a rushed vault."
   }
 ]

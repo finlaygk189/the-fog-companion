@@ -1,0 +1,107 @@
+.perks-page {
+  padding: 3rem;
+}
+
+.page-header {
+  max-width: 700px;
+}
+
+.page-header__eyebrow {
+  margin: 0 0 0.75rem;
+  color: #c84444;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+}
+
+.page-header h1 {
+  margin: 0;
+  font-size: 3rem;
+}
+
+.page-header > p:last-child {
+  color: #a9abb2;
+  line-height: 1.6;
+}
+
+.perk-search {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #191a1e;
+  border: 1px solid #36383f;
+  border-radius: 0.45rem;
+  color: #ffffff;
+  outline: none;
+}
+
+.perk-search:focus {
+  border-color: #b83939;
+}
+
+.perk-results {
+  margin: 1rem 0;
+  color: #92969f;
+  font-size: 0.9rem;
+}
+
+.perk-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+}
+
+.perk-card {
+  padding: 1.4rem;
+  background-color: #191a1e;
+  border: 1px solid #32343a;
+  border-radius: 0.6rem;
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.perk-card:hover {
+  transform: translateY(-3px);
+  border-color: #a83a3a;
+}
+
+.perk-card__header {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.perk-card__category,
+.perk-card__id {
+  color: #c84444;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.perk-card h2 {
+  margin: 1.5rem 0 0.5rem;
+}
+
+.perk-card__survivor {
+  color: #d2d3d7;
+  font-size: 0.9rem;
+}
+
+.perk-card__summary {
+  color: #9fa1a8;
+  line-height: 1.6;
+}
+
+.no-results {
+  margin-top: 2rem;
+  color: #a9abb2;
+}
+
+@media (max-width: 700px) {
+  .perks-page {
+    padding: 1.5rem;
+  }
+}
