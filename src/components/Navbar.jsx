@@ -1,14 +1,26 @@
 import { Link } from "react-router-dom";
+import "../styles/navbar.css";
 
 function Navbar() {
   return (
-    <nav>
-      <h2>DBD Companion</h2>
+    <nav className="navbar">
+      <h2 className="navbar__title">The Fog Companion</h2>
 
-      <Link to="/">Home</Link>
-      <Link to="/survivors">Survivors</Link>
-      <Link to="/perks">Perks</Link>
-      <Link to="/generator">Generator</Link>
+      <Link className="navbar__link" to="/">
+        Home
+      </Link>
+
+      <Link className="navbar__link" to="/survivors">
+        Survivors
+      </Link>
+
+      <Link className="navbar__link" to="/perks">
+        Perks
+      </Link>
+
+      <Link className="navbar__link" to="/generator">
+        Generator
+      </Link>
     </nav>
   );
 }

@@ -1,0 +1,24 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem 2rem;
+  background-color: #1a1c20;
+  border-bottom: 1px solid #34363b;
+}
+
+.navbar__title {
+  margin: 0 auto 0 0;
+  font-size: 1.25rem;
+}
+
+.navbar__link {
+  padding: 0.6rem 0.8rem;
+  border-radius: 0.35rem;
+  color: #d7d7d7;
+}
+
+.navbar__link:hover {
+  background-color: #292c31;
+  color: #ffffff;
+}
