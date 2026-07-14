@@ -1,33 +1,32 @@
 # The Fog Companion
 
-A modern Dead by Daylight companion web application built with React.
+A modern Dead by Daylight companion application developed using React.
 
-## Current Features
+## Live Application
 
-- Multi-page navigation
-- Home page
-- Survivors page
-- Perks page
-- Build Generator page
+[Open The Fog Companion](https://the-fog-companion.vercel.app)
 
-## Planned Features
+## Features
 
-- Survivor database
-- Searchable perk database
-- Random build generator
-- Themed build library
-- Favourite builds
-- Responsive design
+- Responsive dark-themed user interface
+- Multi-page navigation using React Router
+- Searchable survivor database
+- Searchable survivor perk database
+- Category-based random build generator
+- Persistent saved builds using localStorage
 
 ## Technologies
 
 - React
-- React Router
 - JavaScript
+- React Router
+- HTML
 - CSS
-- Vite
-- Git and GitHub
+- JSON
+- Git
+- GitHub
+- Vercel
 
-## Project Status
+## Development Process
 
-This project is currently in active development.
+The project was developed incrementally using Git version control. Each completed feature was tested, committed with a descriptive commit message and pushed to GitHub.
