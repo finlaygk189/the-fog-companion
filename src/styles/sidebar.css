@@ -1,0 +1,47 @@
+.sidebar {
+  width: 250px;
+  min-height: 100vh;
+  padding: 2rem 1.25rem;
+  background-color: #17181c;
+  border-right: 1px solid #303238;
+}
+
+.sidebar__brand {
+  margin-bottom: 2.5rem;
+}
+
+.sidebar__brand h2 {
+  margin: 0;
+  font-size: 1.35rem;
+}
+
+.sidebar__brand p {
+  margin-top: 0.35rem;
+  color: #92969f;
+  font-size: 0.85rem;
+}
+
+.sidebar__nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.sidebar__link {
+  padding: 0.85rem 1rem;
+  border-radius: 0.45rem;
+  color: #c6c8ce;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.sidebar__link:hover {
+  background-color: #24262c;
+  color: #ffffff;
+}
+
+.sidebar__link--active {
+  background-color: #34373f;
+  color: #ffffff;
+}
