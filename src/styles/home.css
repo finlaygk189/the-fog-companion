@@ -1,0 +1,138 @@
+.home {
+  padding: 3rem;
+}
+
+.hero {
+  max-width: 850px;
+  padding: 4rem;
+  background:
+    linear-gradient(120deg, rgba(15, 16, 19, 0.95), rgba(38, 22, 24, 0.82)),
+    #1b1c20;
+  border: 1px solid #34363d;
+  border-radius: 0.75rem;
+}
+
+.hero__eyebrow,
+.section-heading p {
+  margin: 0 0 1rem;
+  color: #c84444;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+}
+
+.hero__title {
+  margin: 0;
+  font-size: clamp(2.8rem, 7vw, 5.5rem);
+  line-height: 0.95;
+  text-transform: uppercase;
+}
+
+.hero__description {
+  max-width: 600px;
+  margin: 1.75rem 0 0;
+  color: #b6b8bf;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.9rem 1.25rem;
+  border-radius: 0.4rem;
+  font-weight: 700;
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+}
+
+.button--primary {
+  background-color: #b83939;
+  color: #ffffff;
+}
+
+.button--primary:hover {
+  background-color: #ce4545;
+}
+
+.button--secondary {
+  background-color: #292b31;
+  border: 1px solid #444750;
+  color: #ffffff;
+}
+
+.quick-access {
+  margin-top: 3rem;
+}
+
+.section-heading h2 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.dashboard-card {
+  min-height: 210px;
+  padding: 1.5rem;
+  background-color: #191a1e;
+  border: 1px solid #32343a;
+  border-radius: 0.6rem;
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    background-color 0.2s ease;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-4px);
+  background-color: #202126;
+  border-color: #a83a3a;
+}
+
+.dashboard-card__number {
+  color: #c84444;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.dashboard-card h3 {
+  margin: 2.5rem 0 0.75rem;
+  font-size: 1.35rem;
+}
+
+.dashboard-card p {
+  margin: 0;
+  color: #a9abb2;
+  line-height: 1.6;
+}
+
+@media (max-width: 900px) {
+  .home {
+    padding: 1.5rem;
+  }
+
+  .hero {
+    padding: 2.5rem 1.5rem;
+  }
+
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+}
