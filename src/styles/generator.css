@@ -82,3 +82,44 @@
     grid-template-columns: 1fr;
   }
 }
+.generator-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.generator-controls label {
+  width: 100%;
+  color: #b8bac0;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.generator-controls select {
+  min-width: 240px;
+  padding: 0.9rem 1rem;
+  background-color: #191a1e;
+  border: 1px solid #36383f;
+  border-radius: 0.45rem;
+  color: #ffffff;
+  outline: none;
+}
+
+.generator-controls select:focus {
+  border-color: #b83939;
+}
+
+.generator-controls .generate-button {
+  margin: 0;
+}
+
+.generator-message {
+  max-width: 600px;
+  padding: 1rem;
+  background-color: #2b2021;
+  border: 1px solid #72383c;
+  border-radius: 0.45rem;
+  color: #f0c6c8;
+}
