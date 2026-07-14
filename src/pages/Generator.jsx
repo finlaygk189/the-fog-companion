@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import perks from "../data/perks.json";
 import PerkCard from "../components/PerkCard";
 import "../styles/generator.css";
@@ -7,6 +7,16 @@ function Generator() {
   const [generatedBuild, setGeneratedBuild] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [message, setMessage] = useState("");
+
+  const [savedBuilds, setSavedBuilds] = useState(() => {
+    const storedBuilds = localStorage.getItem("savedBuilds");
+
+    return storedBuilds ? JSON.parse(storedBuilds) : [];
+  });
+
+  useEffect(() => {
+    localStorage.setItem("savedBuilds", JSON.stringify(savedBuilds));
+  }, [savedBuilds]);
 
   function shuffleArray(items) {
     return [...items].sort(() => Math.random() - 0.5);
@@ -32,15 +42,33 @@ function Generator() {
     setMessage("");
   }
 
+  function saveBuild() {
+    if (generatedBuild.length !== 4) {
+      return;
+    }
+
+    const newBuild = {
+      id: Date.now(),
+      category: selectedCategory,
+      perks: generatedBuild,
+    };
+
+    setSavedBuilds((currentBuilds) => [...currentBuilds, newBuild]);
+    setMessage("Build saved successfully.");
+  }
+
+  function deleteBuild(buildId) {
+    setSavedBuilds((currentBuilds) =>
+      currentBuilds.filter((build) => build.id !== buildId)
+    );
+  }
+
   return (
     <main className="generator-page">
       <header className="generator-header">
         <p className="generator-header__eyebrow">BUILD CREATOR</p>
         <h1>Build Generator</h1>
-
-        <p>
-          Select a category and generate four unique survivor perks.
-        </p>
+        <p>Select a category and generate four unique survivor perks.</p>
       </header>
 
       <section className="generator-controls">
@@ -79,12 +107,14 @@ function Generator() {
           <section>
             <div className="generated-build__heading">
               <h2>Your Build</h2>
-              <p>
-                Category:{" "}
-                {selectedCategory === "All"
-                  ? "Completely Random"
-                  : selectedCategory}
-              </p>
+
+              <button
+                className="save-build-button"
+                type="button"
+                onClick={saveBuild}
+              >
+                Save Build
+              </button>
             </div>
 
             <div className="generated-build">
@@ -95,6 +125,46 @@ function Generator() {
           </section>
         )
       )}
+
+      <section className="saved-builds">
+        <h2>Saved Builds</h2>
+
+        {savedBuilds.length === 0 ? (
+          <p className="saved-builds__empty">
+            You have not saved any builds yet.
+          </p>
+        ) : (
+          savedBuilds.map((build, index) => (
+            <article className="saved-build" key={build.id}>
+              <div className="saved-build__header">
+                <div>
+                  <h3>Saved Build {index + 1}</h3>
+                  <p>
+                    Category:{" "}
+                    {build.category === "All"
+                      ? "Completely Random"
+                      : build.category}
+                  </p>
+                </div>
+
+                <button
+                  className="delete-build-button"
+                  type="button"
+                  onClick={() => deleteBuild(build.id)}
+                >
+                  Delete
+                </button>
+              </div>
+
+              <div className="saved-build__perks">
+                {build.perks.map((perk) => (
+                  <span key={perk.id}>{perk.name}</span>
+                ))}
+              </div>
+            </article>
+          ))
+        )}
+      </section>
     </main>
   );
 }
