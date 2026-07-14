@@ -52,3 +52,17 @@ The build generator uses state to store the four currently selected perks. Updat
 - `sort()` rearranges array items.
 - `slice(0, 4)` takes the first four items.
 - `map()` converts each perk object into a visible PerkCard component.
+
+---
+
+## Deployment
+
+The application was deployed using Vercel and connected to the GitHub repository.
+
+The deployment automatically rebuilds when new changes are pushed to the main branch.
+
+Live application:
+[ADD LIVE URL]
+
+Repository:
+https://github.com/finlaygk189/the-fog-companion
