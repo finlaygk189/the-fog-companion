@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Dwight Fairfield",
+    "role": "Leader",
+    "description": "A nervous leader who helps teammates work together.",
+    "perks": ["Bond", "Prove Thyself", "Leader"]
+  },
+  {
+    "id": 2,
+    "name": "Meg Thomas",
+    "role": "Athlete",
+    "description": "A fast survivor who specialises in escaping chases.",
+    "perks": ["Quick & Quiet", "Sprint Burst", "Adrenaline"]
+  },
+  {
+    "id": 3,
+    "name": "Claudette Morel",
+    "role": "Medic",
+    "description": "A caring botanist with strong healing abilities.",
+    "perks": ["Empathy", "Botany Knowledge", "Self-Care"]
+  },
+  {
+    "id": 4,
+    "name": "Jake Park",
+    "role": "Saboteur",
+    "description": "A resourceful survivalist who can disrupt the Killer.",
+    "perks": ["Iron Will", "Calm Spirit", "Saboteur"]
+  },
+  {
+    "id": 5,
+    "name": "Nea Karlsson",
+    "role": "Urban Escape Artist",
+    "description": "An agile survivor who moves effectively around the environment.",
+    "perks": ["Balanced Landing", "Urban Evasion", "Streetwise"]
+  },
+  {
+    "id": 6,
+    "name": "Feng Min",
+    "role": "Focused Competitor",
+    "description": "A determined gamer who specialises in quick reactions.",
+    "perks": ["Technician", "Lithe", "Alert"]
+  }
+]

@@ -1,0 +1,94 @@
+.survivors-page {
+  padding: 3rem;
+}
+
+.survivor-search {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #191a1e;
+  border: 1px solid #36383f;
+  border-radius: 0.45rem;
+  color: #ffffff;
+  outline: none;
+}
+
+.survivor-search:focus {
+  border-color: #b83939;
+}
+
+.survivor-results {
+  margin: 1rem 0;
+  color: #92969f;
+  font-size: 0.9rem;
+}
+
+.survivor-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.survivor-card {
+  padding: 1.5rem;
+  background-color: #191a1e;
+  border: 1px solid #32343a;
+  border-radius: 0.6rem;
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.survivor-card:hover {
+  transform: translateY(-3px);
+  border-color: #a83a3a;
+}
+
+.survivor-card__header {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.survivor-card__role,
+.survivor-card__id {
+  color: #c84444;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.survivor-card h2 {
+  margin: 1.5rem 0 0.75rem;
+}
+
+.survivor-card__description {
+  color: #a9abb2;
+  line-height: 1.6;
+}
+
+.survivor-card__perks {
+  margin-top: 1.5rem;
+}
+
+.survivor-card__perks h3 {
+  margin-bottom: 0.75rem;
+  font-size: 0.9rem;
+}
+
+.survivor-card__perks ul {
+  margin: 0;
+  padding-left: 1.25rem;
+  color: #d1d2d6;
+}
+
+.survivor-card__perks li {
+  margin-bottom: 0.4rem;
+}
+
+@media (max-width: 700px) {
+  .survivors-page {
+    padding: 1.5rem;
+  }
+}
