@@ -23,7 +23,9 @@ function PerkCard({ perk, survivorName }) {
           : "General Survivor Perk"}
       </p>
 
-      <p className="perk-card__summary">{perk.summary}</p>
+      <p className="perk-card__summary">
+        {perk.summary}
+      </p>
     </article>
   );
 }
