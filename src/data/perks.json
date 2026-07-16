@@ -814,5 +814,125 @@
   "tags": ["Chase", "Generator", "Teamwork"],
   "summary": "Improve teammates' generator repair speed while you are being chased nearby.",
   "image": ""
+},
+{
+  "id": "friendly-competition",
+  "name": "Friendly Competition",
+  "survivorId": "thalita-lyra",
+  "tags": ["Generator", "Teamwork", "Progress"],
+  "summary": "Gain a temporary repair-speed benefit after completing a generator cooperatively.",
+  "image": ""
+},
+{
+  "id": "teamwork-power-of-two",
+  "name": "Teamwork: Power of Two",
+  "survivorId": "thalita-lyra",
+  "tags": ["Teamwork", "Healing", "Movement"],
+  "summary": "Gain a movement-speed benefit after healing another Survivor while remaining close together.",
+  "image": ""
+},
+{
+  "id": "cut-loose",
+  "name": "Cut Loose",
+  "survivorId": "thalita-lyra",
+  "tags": ["Chase", "Vault", "Stealth"],
+  "summary": "Suppress the sound and noise notification of rushed vaults after performing one during a chase.",
+  "image": ""
+},
+{
+  "id": "blood-rush",
+  "name": "Blood Rush",
+  "survivorId": "renato-lyra",
+  "tags": ["Exhaustion", "Endgame", "Second Chance"],
+  "summary": "Temporarily recover from Exhaustion by sacrificing a health state under specific conditions.",
+  "image": ""
+},
+{
+  "id": "teamwork-collective-stealth",
+  "name": "Teamwork: Collective Stealth",
+  "survivorId": "renato-lyra",
+  "tags": ["Teamwork", "Healing", "Stealth"],
+  "summary": "Suppress scratch marks after another Survivor finishes healing you while you remain close together.",
+  "image": ""
+},
+{
+  "id": "background-player",
+  "name": "Background Player",
+  "survivorId": "renato-lyra",
+  "tags": ["Exhaustion", "Rescue", "Movement"],
+  "summary": "Gain a burst of movement speed when the Killer picks up another Survivor.",
+  "image": ""
+},
+{
+  "id": "troubleshooter",
+  "name": "Troubleshooter",
+  "survivorId": "gabriel-soma",
+  "tags": ["Generator", "Aura Reading", "Chase"],
+  "summary": "Reveal useful generator and Killer information after being chased near a completed objective.",
+  "image": ""
+},
+{
+  "id": "made-for-this",
+  "name": "Made for This",
+  "survivorId": "gabriel-soma",
+  "tags": ["Injured", "Movement", "Endurance"],
+  "summary": "Gain situational movement and protection benefits while injured.",
+  "image": ""
+},
+{
+  "id": "scavenger",
+  "name": "Scavenger",
+  "survivorId": "gabriel-soma",
+  "tags": ["Items", "Toolbox", "Skill Checks"],
+  "summary": "Earn progress from successful skill checks toward restoring a depleted toolbox.",
+  "image": ""
+},
+{
+  "id": "dramaturgy",
+  "name": "Dramaturgy",
+  "survivorId": "nicolas-cage",
+  "tags": ["Exhaustion", "Random", "Chase"],
+  "summary": "Perform a dramatic sprint that produces one of several unpredictable effects.",
+  "image": ""
+},
+{
+  "id": "scene-partner",
+  "name": "Scene Partner",
+  "survivorId": "nicolas-cage",
+  "tags": ["Aura Reading", "Scream", "Information"],
+  "summary": "Scream while looking toward the Killer to reveal their aura, with a chance of an additional scream.",
+  "image": ""
+},
+{
+  "id": "plot-twist",
+  "name": "Plot Twist",
+  "survivorId": "nicolas-cage",
+  "tags": ["Recovery", "Healing", "Second Chance"],
+  "summary": "Enter the dying state voluntarily and recover privately to return fully healed.",
+  "image": ""
+},
+{
+  "id": "lucky-star",
+  "name": "Lucky Star",
+  "survivorId": "ellen-ripley",
+  "tags": ["Locker", "Stealth", "Information"],
+  "summary": "Suppress pain sounds and reveal useful teammate and generator information after leaving a locker.",
+  "image": ""
+},
+{
+  "id": "chemical-trap",
+  "name": "Chemical Trap",
+  "survivorId": "ellen-ripley",
+  "tags": ["Pallet", "Trap", "Chase"],
+  "summary": "Install a trap on a dropped pallet that slows the Killer after they destroy it.",
+  "image": ""
+},
+{
+  "id": "light-footed",
+  "name": "Light-Footed",
+  "survivorId": "ellen-ripley",
+  "tags": ["Stealth", "Movement", "Chase"],
+  "summary": "Suppress the sound of your running footsteps while healthy.",
+  "image": ""
 }
   ]

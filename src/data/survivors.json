@@ -406,5 +406,65 @@
     "quick-gambit"
   ],
   "image": ""
+},
+{
+  "id": "thalita-lyra",
+  "name": "Thalita Lyra",
+  "role": "Competitive Team Player",
+  "description": "A confident competitor who coordinates closely with teammates and moves smoothly through chases.",
+  "perkIds": [
+    "friendly-competition",
+    "teamwork-power-of-two",
+    "cut-loose"
+  ],
+  "image": ""
+},
+{
+  "id": "renato-lyra",
+  "name": "Renato Lyra",
+  "role": "Focused Competitor",
+  "description": "A focused competitor who supports teammates and performs strongly during dangerous situations.",
+  "perkIds": [
+    "blood-rush",
+    "teamwork-collective-stealth",
+    "background-player"
+  ],
+  "image": ""
+},
+{
+  "id": "gabriel-soma",
+  "name": "Gabriel Soma",
+  "role": "Resourceful Engineer",
+  "description": "A skilled engineer who analyses the Killer and makes efficient use of limited resources.",
+  "perkIds": [
+    "troubleshooter",
+    "made-for-this",
+    "scavenger"
+  ],
+  "image": ""
+},
+{
+  "id": "nicolas-cage",
+  "name": "Nicolas Cage",
+  "role": "Dramatic Performer",
+  "description": "An unpredictable performer who turns dangerous situations into dramatic opportunities.",
+  "perkIds": [
+    "dramaturgy",
+    "scene-partner",
+    "plot-twist"
+  ],
+  "image": ""
+},
+{
+  "id": "ellen-ripley",
+  "name": "Ellen Ripley",
+  "role": "Experienced Survivor",
+  "description": "A resourceful survivor who uses careful movement, improvised traps and environmental awareness.",
+  "perkIds": [
+    "lucky-star",
+    "chemical-trap",
+    "light-footed"
+  ],
+  "image": ""
 }
   ]
