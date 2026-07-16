@@ -97,10 +97,10 @@ function Generator() {
           onChange={(event) => setSelectedCategory(event.target.value)}
         >
           {categories.map((category) => (
-  <option key={category} value={category}>
-    {category === "All" ? "Completely Random" : category}
-  </option>
-))}
+            <option key={category} value={category}>
+              {category === "All" ? "Completely Random" : category}
+            </option>
+          ))}
         </select>
 
         <button

@@ -46,6 +46,21 @@
     background-color 0.2s ease;
 }
 
+.survivor-card__description {
+  flex: 1;
+  color: #b7b9bf;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+
+  display: -webkit-box;
+
+  line-clamp: 3;
+  -webkit-line-clamp: 3;
+
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
 .survivor-card:hover {
   transform: translateY(-3px);
   background-color: #202126;
@@ -81,7 +96,7 @@
 }
 
 .survivor-card__perks {
-  margin-top: 1.5rem;
+  margin-top: auto;
 }
 
 .survivor-card__perks h3 {

@@ -15,7 +15,6 @@ function PerkDetails() {
       <main className="perk-details">
         <section className="perk-not-found">
           <h1>Perk not found</h1>
-
           <p>
             The requested perk does not exist in the current database.
           </p>
@@ -40,14 +39,6 @@ function PerkDetails() {
       </Link>
 
       <article className="perk-details__card">
-        {perk.image && (
-          <img
-            className="perk-details__image"
-            src={perk.image}
-            alt={`${perk.name} perk icon`}
-          />
-        )}
-
         <div className="perk-details__content">
           <p className="perk-details__eyebrow">
             SURVIVOR PERK
