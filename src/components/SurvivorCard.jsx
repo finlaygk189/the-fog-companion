@@ -6,7 +6,11 @@ function SurvivorCard({ survivor, perks }) {
     .filter(Boolean);
 
   return (
-    <article className="survivor-card">
+    <Link
+      className="survivor-card"
+      to={`/survivors/${survivor.id}`}
+      aria-label={`View ${survivor.name}`}
+    >
       {survivor.image && (
         <img
           className="survivor-card__image"
@@ -37,13 +41,10 @@ function SurvivorCard({ survivor, perks }) {
         </ul>
       </div>
 
-      <Link
-        className="survivor-card__link"
-        to={`/survivors/${survivor.id}`}
-      >
+      <span className="survivor-card__link">
         View Survivor
-      </Link>
-    </article>
+      </span>
+    </Link>
   );
 }
 
