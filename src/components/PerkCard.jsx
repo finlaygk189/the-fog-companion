@@ -1,6 +1,12 @@
+import { Link } from "react-router-dom";
+
 function PerkCard({ perk, survivorName }) {
   return (
-    <article className="perk-card">
+    <Link
+      className="perk-card"
+      to={`/perks/${perk.id}`}
+      aria-label={`View ${perk.name}`}
+    >
       {perk.image && (
         <img
           className="perk-card__image"
@@ -26,7 +32,11 @@ function PerkCard({ perk, survivorName }) {
       <p className="perk-card__summary">
         {perk.summary}
       </p>
-    </article>
+
+      <span className="perk-card__link">
+        View Perk
+      </span>
+    </Link>
   );
 }
 

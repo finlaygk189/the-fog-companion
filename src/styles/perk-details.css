@@ -1,0 +1,108 @@
+.perk-details {
+  padding: 3rem;
+}
+
+.details-back-link {
+  display: inline-block;
+  margin-bottom: 2rem;
+  color: #c8c9ce;
+  font-weight: 700;
+}
+
+.details-back-link:hover {
+  color: #ffffff;
+}
+
+.perk-details__card {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  max-width: 950px;
+  padding: 2.5rem;
+  background-color: #191a1e;
+  border: 1px solid #32343a;
+  border-radius: 0.75rem;
+}
+
+.perk-details__image {
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
+}
+
+.perk-details__content {
+  flex: 1;
+}
+
+.perk-details__eyebrow {
+  margin: 0 0 0.75rem;
+  color: #c84444;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+}
+
+.perk-details h1 {
+  margin: 0;
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+}
+
+.perk-details__owner {
+  color: #d4d5d9;
+  font-weight: 700;
+}
+
+.perk-details__summary {
+  max-width: 650px;
+  color: #a9abb2;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.perk-details__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1.5rem;
+}
+
+.perk-details__tags span {
+  padding: 0.5rem 0.75rem;
+  background-color: #292b31;
+  border: 1px solid #444750;
+  border-radius: 0.35rem;
+  color: #d7d8dc;
+}
+
+.perk-details__survivor-link {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 0.8rem 1rem;
+  background-color: #b83939;
+  border-radius: 0.4rem;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.perk-details__survivor-link:hover {
+  background-color: #cf4747;
+}
+
+.perk-not-found {
+  max-width: 650px;
+  padding: 2rem;
+  background-color: #191a1e;
+  border: 1px solid #32343a;
+  border-radius: 0.6rem;
+}
+
+@media (max-width: 750px) {
+  .perk-details {
+    padding: 1.5rem;
+  }
+
+  .perk-details__card {
+    flex-direction: column;
+    padding: 1.5rem;
+  }
+}

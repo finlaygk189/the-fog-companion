@@ -260,3 +260,30 @@
     flex-wrap: wrap;
   }
 }
+.perk-card {
+  display: flex;
+  flex-direction: column;
+  color: inherit;
+  text-decoration: none;
+}
+
+.perk-card__link {
+  align-self: flex-start;
+  margin-top: auto;
+  padding: 0.65rem 0.9rem;
+  background-color: #292b31;
+  border: 1px solid #444750;
+  border-radius: 0.4rem;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.perk-card:hover .perk-card__link {
+  background-color: #b83939;
+  border-color: #b83939;
+}
+
+.perk-card:focus-visible {
+  outline: 2px solid #c84444;
+  outline-offset: 3px;
+}
