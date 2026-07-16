@@ -1,12 +1,15 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import perks from "../data/perks.json";
 import survivors from "../data/survivors.json";
 import PerkCard from "../components/PerkCard";
 import "../styles/perks.css";
 
+const PERKS_PER_PAGE = 24;
+
 function Perks() {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedTag, setSelectedTag] = useState("All");
+  const [currentPage, setCurrentPage] = useState(1);
 
   function getSurvivorName(survivorId) {
     const survivor = survivors.find(
@@ -19,11 +22,11 @@ function Perks() {
   const tags = [
     "All",
     ...new Set(perks.flatMap((perk) => perk.tags)),
-  ].sort((a, b) => {
-    if (a === "All") return -1;
-    if (b === "All") return 1;
+  ].sort((firstTag, secondTag) => {
+    if (firstTag === "All") return -1;
+    if (secondTag === "All") return 1;
 
-    return a.localeCompare(b);
+    return firstTag.localeCompare(secondTag);
   });
 
   const filteredPerks = perks.filter((perk) => {
@@ -39,7 +42,7 @@ function Perks() {
       .toLowerCase();
 
     const matchesSearch = searchableText.includes(
-      searchTerm.toLowerCase()
+      searchTerm.trim().toLowerCase()
     );
 
     const matchesTag =
@@ -48,23 +51,46 @@ function Perks() {
     return matchesSearch && matchesTag;
   });
 
+  const totalPages = Math.max(
+    1,
+    Math.ceil(filteredPerks.length / PERKS_PER_PAGE)
+  );
+
+  const startIndex = (currentPage - 1) * PERKS_PER_PAGE;
+  const visiblePerks = filteredPerks.slice(
+    startIndex,
+    startIndex + PERKS_PER_PAGE
+  );
+
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [searchTerm, selectedTag]);
+
   function clearFilters() {
     setSearchTerm("");
     setSelectedTag("All");
+    setCurrentPage(1);
+  }
+
+  function goToPreviousPage() {
+    setCurrentPage((page) => Math.max(1, page - 1));
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
+  function goToNextPage() {
+    setCurrentPage((page) => Math.min(totalPages, page + 1));
+    window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
   return (
     <main className="perks-page">
       <header className="page-header">
-        <p className="page-header__eyebrow">
-          SURVIVOR DATABASE
-        </p>
+        <p className="page-header__eyebrow">SURVIVOR DATABASE</p>
 
         <h1>Perks</h1>
 
         <p>
-          Search Survivor perks by name, character, description or
-          category.
+          Search Survivor perks by name, character, description or category.
         </p>
       </header>
 
@@ -93,41 +119,64 @@ function Perks() {
           className="clear-filter-button"
           type="button"
           onClick={clearFilters}
-          disabled={
-            searchTerm.length === 0 && selectedTag === "All"
-          }
+          disabled={searchTerm === "" && selectedTag === "All"}
         >
           Clear Filters
         </button>
       </section>
 
-      <p className="perk-results">
-        Showing {filteredPerks.length} of {perks.length} perks
-      </p>
+      <div className="perk-results-row">
+        <p className="perk-results">
+          Showing {visiblePerks.length} of {filteredPerks.length} matching perks
+        </p>
 
-      {filteredPerks.length > 0 ? (
-        <section className="perk-grid">
-          {filteredPerks.map((perk) => (
-            <PerkCard
-              key={perk.id}
-              perk={perk}
-              survivorName={getSurvivorName(perk.survivorId)}
-            />
-          ))}
-        </section>
+        <p className="perk-page-count">
+          Page {currentPage} of {totalPages}
+        </p>
+      </div>
+
+      {visiblePerks.length > 0 ? (
+        <>
+          <section className="perk-grid">
+            {visiblePerks.map((perk) => (
+              <PerkCard
+                key={perk.id}
+                perk={perk}
+                survivorName={getSurvivorName(perk.survivorId)}
+              />
+            ))}
+          </section>
+
+          {totalPages > 1 && (
+            <nav className="pagination" aria-label="Perk pages">
+              <button
+                type="button"
+                onClick={goToPreviousPage}
+                disabled={currentPage === 1}
+              >
+                Previous
+              </button>
+
+              <span>
+                Page {currentPage} of {totalPages}
+              </span>
+
+              <button
+                type="button"
+                onClick={goToNextPage}
+                disabled={currentPage === totalPages}
+              >
+                Next
+              </button>
+            </nav>
+          )}
+        </>
       ) : (
         <section className="no-results">
           <h2>No perks found</h2>
+          <p>Try changing your search term or selected category.</p>
 
-          <p>
-            Try changing your search term or selecting another
-            category.
-          </p>
-
-          <button
-            type="button"
-            onClick={clearFilters}
-          >
+          <button type="button" onClick={clearFilters}>
             Reset Filters
           </button>
         </section>
