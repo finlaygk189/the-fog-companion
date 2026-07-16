@@ -70,5 +70,101 @@
       "alert"
     ],
     "image": ""
+  },
+  {
+    "id": "ace-visconti",
+    "name": "Ace Visconti",
+    "role": "Lucky Gambler",
+    "description": "A confident gambler who relies on luck and improvisation.",
+    "perkIds": [
+      "open-handed",
+      "up-the-ante",
+      "ace-in-the-hole"
+    ],
+    "image": ""
+  },
+  {
+    "id": "william-bill-overbeck",
+    "name": "William \"Bill\" Overbeck",
+    "role": "Veteran",
+    "description": "A hardened veteran who excels at survival and protecting teammates.",
+    "perkIds": [
+      "left-behind",
+      "borrowed-time",
+      "unbreakable"
+    ],
+    "image": ""
+  },
+  {
+    "id": "david-king",
+    "name": "David King",
+    "role": "Fighter",
+    "description": "A tough brawler who takes risks to protect himself and other Survivors.",
+    "perkIds": [
+      "were-gonna-live-forever",
+      "dead-hard",
+      "no-mither"
+    ],
+    "image": ""
+  },
+  {
+    "id": "laurie-strode",
+    "name": "Laurie Strode",
+    "role": "Determined Survivor",
+    "description": "A determined Survivor who grows stronger while being pursued by the Killer.",
+    "perkIds": [
+      "sole-survivor",
+      "object-of-obsession",
+      "decisive-strike"
+    ],
+    "image": ""
+  },
+  {
+    "id": "quentin-smith",
+    "name": "Quentin Smith",
+    "role": "Resourceful Dreamer",
+    "description": "A resourceful Survivor who helps his team recover and prepare for escape.",
+    "perkIds": [
+      "pharmacy",
+      "vigil",
+      "wake-up"
+    ],
+    "image": ""
+  },
+  {
+    "id": "detective-tapp",
+    "name": "Detective Tapp",
+    "role": "Obsessive Investigator",
+    "description": "A determined investigator who tracks objectives and supports his teammates.",
+    "perkIds": [
+      "tenacity",
+      "detectives-hunch",
+      "stake-out"
+    ],
+    "image": ""
+  },
+  {
+    "id": "kate-denson",
+    "name": "Kate Denson",
+    "role": "Hopeful Performer",
+    "description": "An optimistic performer skilled at navigating and escaping dangerous chases.",
+    "perkIds": [
+      "dance-with-me",
+      "windows-of-opportunity",
+      "boil-over"
+    ],
+    "image": ""
+  },
+  {
+    "id": "adam-francis",
+    "name": "Adam Francis",
+    "role": "Resourceful Teacher",
+    "description": "A calm teacher who uses preparation and sacrifice to overcome danger.",
+    "perkIds": [
+      "diversion",
+      "deliverance",
+      "autodidact"
+    ],
+    "image": ""
   }
-]
+  ]

@@ -142,5 +142,197 @@
     "tags": ["Aura Reading", "Information"],
     "summary": "Reveal the Killer's aura after they perform certain destructive actions.",
     "image": ""
+  },
+  {
+    "id": "open-handed",
+    "name": "Open-Handed",
+    "survivorId": "ace-visconti",
+    "tags": ["Aura Reading", "Support"],
+    "summary": "Increase the effective range of aura-reading abilities.",
+    "image": ""
+  },
+  {
+    "id": "up-the-ante",
+    "name": "Up the Ante",
+    "survivorId": "ace-visconti",
+    "tags": ["Luck", "Teamwork"],
+    "summary": "Increase the Luck of the remaining Survivors while teammates are alive.",
+    "image": ""
+  },
+  {
+    "id": "ace-in-the-hole",
+    "name": "Ace in the Hole",
+    "survivorId": "ace-visconti",
+    "tags": ["Items", "Luck"],
+    "summary": "Improve the add-ons found attached to items from chests.",
+    "image": ""
+  },
+  {
+    "id": "left-behind",
+    "name": "Left Behind",
+    "survivorId": "william-bill-overbeck",
+    "tags": ["Endgame", "Aura Reading"],
+    "summary": "Reveal the Hatch aura when you are the final Survivor remaining.",
+    "image": ""
+  },
+  {
+    "id": "borrowed-time",
+    "name": "Borrowed Time",
+    "survivorId": "william-bill-overbeck",
+    "tags": ["Rescue", "Support"],
+    "summary": "Extend protection effects granted to Survivors rescued from a hook.",
+    "image": ""
+  },
+  {
+    "id": "unbreakable",
+    "name": "Unbreakable",
+    "survivorId": "william-bill-overbeck",
+    "tags": ["Recovery", "Second Chance"],
+    "summary": "Recover from the dying state more quickly and stand up once without help.",
+    "image": ""
+  },
+  {
+    "id": "were-gonna-live-forever",
+    "name": "We're Gonna Live Forever",
+    "survivorId": "david-king",
+    "tags": ["Healing", "Support"],
+    "summary": "Improve healing when assisting a Survivor in the dying state.",
+    "image": ""
+  },
+  {
+    "id": "dead-hard",
+    "name": "Dead Hard",
+    "survivorId": "david-king",
+    "tags": ["Exhaustion", "Chase", "Second Chance"],
+    "summary": "Gain a brief Endurance effect after meeting its activation condition.",
+    "image": ""
+  },
+  {
+    "id": "no-mither",
+    "name": "No Mither",
+    "survivorId": "david-king",
+    "tags": ["Challenge", "Recovery", "Stealth"],
+    "summary": "Remain injured throughout the trial while gaining several survival benefits.",
+    "image": ""
+  },
+  {
+    "id": "sole-survivor",
+    "name": "Sole Survivor",
+    "survivorId": "laurie-strode",
+    "tags": ["Solo", "Aura Protection"],
+    "summary": "Reduce the Killer's ability to read your aura as teammates are eliminated.",
+    "image": ""
+  },
+  {
+    "id": "object-of-obsession",
+    "name": "Object of Obsession",
+    "survivorId": "laurie-strode",
+    "tags": ["Aura Reading", "Obsession", "Information"],
+    "summary": "Periodically reveal your aura and the Killer's aura under certain conditions.",
+    "image": ""
+  },
+  {
+    "id": "decisive-strike",
+    "name": "Decisive Strike",
+    "survivorId": "laurie-strode",
+    "tags": ["Anti-Tunnel", "Second Chance"],
+    "summary": "Attempt a skill check to escape the Killer after recently being unhooked.",
+    "image": ""
+  },
+  {
+    "id": "pharmacy",
+    "name": "Pharmacy",
+    "survivorId": "quentin-smith",
+    "tags": ["Items", "Healing"],
+    "summary": "Search chests more effectively and gain improved access to medical supplies.",
+    "image": ""
+  },
+  {
+    "id": "vigil",
+    "name": "Vigil",
+    "survivorId": "quentin-smith",
+    "tags": ["Recovery", "Support"],
+    "summary": "Help yourself and nearby Survivors recover from negative status effects faster.",
+    "image": ""
+  },
+  {
+    "id": "wake-up",
+    "name": "Wake Up!",
+    "survivorId": "quentin-smith",
+    "tags": ["Endgame", "Aura Reading"],
+    "summary": "Reveal exit gates and improve your gate-opening speed during the endgame.",
+    "image": ""
+  },
+  {
+    "id": "tenacity",
+    "name": "Tenacity",
+    "survivorId": "detective-tapp",
+    "tags": ["Recovery", "Movement"],
+    "summary": "Crawl more quickly while recovering from the dying state.",
+    "image": ""
+  },
+  {
+    "id": "detectives-hunch",
+    "name": "Detective's Hunch",
+    "survivorId": "detective-tapp",
+    "tags": ["Aura Reading", "Objectives", "Information"],
+    "summary": "Reveal nearby objectives after a generator is completed.",
+    "image": ""
+  },
+  {
+    "id": "stake-out",
+    "name": "Stake Out",
+    "survivorId": "detective-tapp",
+    "tags": ["Generator", "Skill Checks"],
+    "summary": "Earn tokens near the Killer that improve successful skill checks.",
+    "image": ""
+  },
+  {
+    "id": "dance-with-me",
+    "name": "Dance With Me",
+    "survivorId": "kate-denson",
+    "tags": ["Chase", "Stealth"],
+    "summary": "Hide your scratch marks briefly after a rushed vault or locker exit.",
+    "image": ""
+  },
+  {
+    "id": "windows-of-opportunity",
+    "name": "Windows of Opportunity",
+    "survivorId": "kate-denson",
+    "tags": ["Aura Reading", "Chase", "Information"],
+    "summary": "Reveal nearby pallets, windows and breakable walls.",
+    "image": ""
+  },
+  {
+    "id": "boil-over",
+    "name": "Boil Over",
+    "survivorId": "kate-denson",
+    "tags": ["Wiggle", "Disruption"],
+    "summary": "Make it more difficult for the Killer to carry you to a hook.",
+    "image": ""
+  },
+  {
+    "id": "diversion",
+    "name": "Diversion",
+    "survivorId": "adam-francis",
+    "tags": ["Distraction", "Stealth"],
+    "summary": "Throw a pebble to create a misleading noise notification.",
+    "image": ""
+  },
+  {
+    "id": "deliverance",
+    "name": "Deliverance",
+    "survivorId": "adam-francis",
+    "tags": ["Hook", "Second Chance"],
+    "summary": "Unhook yourself after safely rescuing another Survivor.",
+    "image": ""
+  },
+  {
+    "id": "autodidact",
+    "name": "Autodidact",
+    "survivorId": "adam-francis",
+    "tags": ["Healing", "Skill Checks"],
+    "summary": "Gain increasingly powerful healing skill checks as the trial progresses.",
+    "image": ""
   }
-]
+  ]
