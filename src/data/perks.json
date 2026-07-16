@@ -934,5 +934,149 @@
   "tags": ["Stealth", "Movement", "Chase"],
   "summary": "Suppress the sound of your running footsteps while healthy.",
   "image": ""
+},
+{
+  "id": "champion-of-light",
+  "name": "Champion of Light",
+  "survivorId": "alan-wake",
+  "tags": ["Flashlight", "Blind", "Chase"],
+  "summary": "Move faster while using a flashlight and hinder the Killer after successfully blinding them.",
+  "image": ""
+},
+{
+  "id": "boon-illumination",
+  "name": "Boon: Illumination",
+  "survivorId": "alan-wake",
+  "tags": ["Boon", "Aura Reading", "Objectives"],
+  "summary": "Bless a Totem to reveal nearby generators and chests to Survivors inside its range.",
+  "image": ""
+},
+{
+  "id": "deadline",
+  "name": "Deadline",
+  "survivorId": "alan-wake",
+  "tags": ["Healing", "Generator", "Skill Checks"],
+  "summary": "Increase skill-check frequency while injured, with checks appearing in less predictable positions.",
+  "image": ""
+},
+{
+  "id": "invocation-weaving-spiders",
+  "name": "Invocation: Weaving Spiders",
+  "survivorId": "sable-ward",
+  "tags": ["Invocation", "Basement", "Generator"],
+  "summary": "Complete a lengthy basement ritual to permanently reduce the remaining repair requirement of generators.",
+  "image": ""
+},
+{
+  "id": "strength-in-shadows",
+  "name": "Strength in Shadows",
+  "survivorId": "sable-ward",
+  "tags": ["Basement", "Healing", "Aura Reading"],
+  "summary": "Heal yourself in the basement and briefly reveal the Killer after completing the heal.",
+  "image": ""
+},
+{
+  "id": "wicked",
+  "name": "Wicked",
+  "survivorId": "sable-ward",
+  "tags": ["Basement", "Hook", "Aura Reading"],
+  "summary": "Escape from a basement hook and reveal the Killer after being unhooked.",
+  "image": ""
+},
+{
+  "id": "bardic-inspiration",
+  "name": "Bardic Inspiration",
+  "survivorId": "aestri-yazar",
+  "tags": ["Teamwork", "Skill Checks", "Performance"],
+  "summary": "Perform music and roll a die to grant nearby Survivors a temporary skill-check benefit.",
+  "image": ""
+},
+{
+  "id": "mirrored-illusion",
+  "name": "Mirrored Illusion",
+  "survivorId": "aestri-yazar",
+  "tags": ["Illusion", "Generator", "Distraction"],
+  "summary": "Create an illusion of yourself beside a completed objective to mislead the Killer.",
+  "image": ""
+},
+{
+  "id": "still-sight",
+  "name": "Still Sight",
+  "survivorId": "aestri-yazar",
+  "tags": ["Aura Reading", "Information", "Objectives"],
+  "summary": "Stand still briefly to reveal important nearby objects and the Killer.",
+  "image": ""
+},
+{
+  "id": "finesse",
+  "name": "Finesse",
+  "survivorId": "lara-croft",
+  "tags": ["Vault", "Chase", "Healthy"],
+  "summary": "Vault more quickly while healthy when the perk is available.",
+  "image": ""
+},
+{
+  "id": "hardened",
+  "name": "Hardened",
+  "survivorId": "lara-croft",
+  "tags": ["Totem", "Chest", "Aura Reading"],
+  "summary": "After completing certain interactions, suppress a scream and reveal the Killer instead.",
+  "image": ""
+},
+{
+  "id": "specialist",
+  "name": "Specialist",
+  "survivorId": "lara-croft",
+  "tags": ["Chest", "Generator", "Progress"],
+  "summary": "Earn tokens from chests and skill checks to reduce a generator's remaining repair requirement.",
+  "image": ""
+},
+{
+  "id": "eyes-of-belmont",
+  "name": "Eyes of Belmont",
+  "survivorId": "trevor-belmont",
+  "tags": ["Generator", "Aura Reading", "Information"],
+  "summary": "Reveal the Killer after a generator is completed and extend other Killer aura-reading effects.",
+  "image": ""
+},
+{
+  "id": "exultation",
+  "name": "Exultation",
+  "survivorId": "trevor-belmont",
+  "tags": ["Pallet", "Items", "Stun"],
+  "summary": "Upgrade and recharge your held item after stunning the Killer with a pallet.",
+  "image": ""
+},
+{
+  "id": "moment-of-glory",
+  "name": "Moment of Glory",
+  "survivorId": "trevor-belmont",
+  "tags": ["Chest", "Healing", "Second Chance"],
+  "summary": "After opening or rummaging through enough chests, automatically heal after surviving while injured.",
+  "image": ""
+},
+{
+  "id": "invocation-treacherous-crows",
+  "name": "Invocation: Treacherous Crows",
+  "survivorId": "taurie-cain",
+  "tags": ["Invocation", "Basement", "Aura Reading"],
+  "summary": "Complete a basement ritual that causes the Killer's aura to be revealed after disturbing crows.",
+  "image": ""
+},
+{
+  "id": "clean-break",
+  "name": "Clean Break",
+  "survivorId": "taurie-cain",
+  "tags": ["Healing", "Broken", "Teamwork"],
+  "summary": "Become Broken after being healed by a teammate, then automatically recover a health state later.",
+  "image": ""
+},
+{
+  "id": "shoulder-the-burden",
+  "name": "Shoulder the Burden",
+  "survivorId": "taurie-cain",
+  "tags": ["Hook", "Rescue", "Sacrifice"],
+  "summary": "Transfer one hook state from a rescued Survivor to yourself at significant personal risk.",
+  "image": ""
 }
   ]

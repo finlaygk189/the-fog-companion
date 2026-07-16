@@ -466,5 +466,77 @@
     "light-footed"
   ],
   "image": ""
+},
+{
+  "id": "alan-wake",
+  "name": "Alan Wake",
+  "role": "Best-Selling Writer",
+  "description": "A determined writer who uses light, observation and perseverance to survive.",
+  "perkIds": [
+    "champion-of-light",
+    "boon-illumination",
+    "deadline"
+  ],
+  "image": ""
+},
+{
+  "id": "sable-ward",
+  "name": "Sable Ward",
+  "role": "Fearless Outsider",
+  "description": "A fearless outsider who gains strength from dangerous rituals and the basement.",
+  "perkIds": [
+    "invocation-weaving-spiders",
+    "strength-in-shadows",
+    "wicked"
+  ],
+  "image": ""
+},
+{
+  "id": "aestri-yazar",
+  "name": "Aestri Yazar",
+  "role": "Adventuring Bard",
+  "description": "A travelling bard who supports allies through performance, magic and careful observation.",
+  "perkIds": [
+    "bardic-inspiration",
+    "mirrored-illusion",
+    "still-sight"
+  ],
+  "image": ""
+},
+{
+  "id": "lara-croft",
+  "name": "Lara Croft",
+  "role": "Resourceful Adventurer",
+  "description": "An experienced adventurer who relies on agility, determination and objective efficiency.",
+  "perkIds": [
+    "finesse",
+    "hardened",
+    "specialist"
+  ],
+  "image": ""
+},
+{
+  "id": "trevor-belmont",
+  "name": "Trevor Belmont",
+  "role": "Vampire Hunter",
+  "description": "A seasoned vampire hunter who gains power through knowledge, items and recovery.",
+  "perkIds": [
+    "eyes-of-belmont",
+    "exultation",
+    "moment-of-glory"
+  ],
+  "image": ""
+},
+{
+  "id": "taurie-cain",
+  "name": "Taurie Cain",
+  "role": "Black Talon Disciple",
+  "description": "A devoted disciple whose abilities involve sacrifice, teamwork and dangerous objectives.",
+  "perkIds": [
+    "invocation-treacherous-crows",
+    "clean-break",
+    "shoulder-the-burden"
+  ],
+  "image": ""
 }
   ]
