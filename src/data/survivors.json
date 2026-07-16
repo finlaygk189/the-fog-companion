@@ -334,5 +334,77 @@
     "boon-shadow-step"
   ],
   "image": ""
+},
+{
+  "id": "jonah-vasquez",
+  "name": "Jonah Vasquez",
+  "role": "Mathematical Mastermind",
+  "description": "A skilled codebreaker who supports teammates and adapts after difficult chases.",
+  "perkIds": [
+    "overcome",
+    "corrective-action",
+    "boon-exponential"
+  ],
+  "image": ""
+},
+{
+  "id": "yoichi-asakawa",
+  "name": "Yoichi Asakawa",
+  "role": "Determined Psychic",
+  "description": "A thoughtful paranormal investigator who helps injured teammates and escapes unnoticed.",
+  "perkIds": [
+    "parental-guidance",
+    "empathic-connection",
+    "boon-dark-theory"
+  ],
+  "image": ""
+},
+{
+  "id": "haddie-kaur",
+  "name": "Haddie Kaur",
+  "role": "Fearless Investigator",
+  "description": "A courageous investigator who tracks danger and turns weakened objectives into advantages.",
+  "perkIds": [
+    "inner-focus",
+    "residual-manifest",
+    "overzealous"
+  ],
+  "image": ""
+},
+{
+  "id": "ada-wong",
+  "name": "Ada Wong",
+  "role": "Mysterious Operative",
+  "description": "A secretive operative who monitors objectives and survives dangerous situations independently.",
+  "perkIds": [
+    "wiretap",
+    "reactive-healing",
+    "low-profile"
+  ],
+  "image": ""
+},
+{
+  "id": "rebecca-chambers",
+  "name": "Rebecca Chambers",
+  "role": "Gifted Medic",
+  "description": "A skilled medic who supports teammates and rewards precise generator skill checks.",
+  "perkIds": [
+    "better-than-new",
+    "reassurance",
+    "hyperfocus"
+  ],
+  "image": ""
+},
+{
+  "id": "vittorio-toscano",
+  "name": "Vittorio Toscano",
+  "role": "Arcane Scholar",
+  "description": "A knowledgeable scholar who uses stored potential and observation to advance objectives.",
+  "perkIds": [
+    "potential-energy",
+    "fogwise",
+    "quick-gambit"
+  ],
+  "image": ""
 }
   ]

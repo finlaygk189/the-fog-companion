@@ -670,5 +670,149 @@
   "tags": ["Boon", "Stealth", "Aura Protection"],
   "summary": "Bless a Totem to conceal nearby Survivors' scratch marks and protect their auras.",
   "image": ""
+},
+{
+  "id": "overcome",
+  "name": "Overcome",
+  "survivorId": "jonah-vasquez",
+  "tags": ["Exhaustion", "Chase", "Injured"],
+  "summary": "Extend your movement-speed boost after becoming injured.",
+  "image": ""
+},
+{
+  "id": "corrective-action",
+  "name": "Corrective Action",
+  "survivorId": "jonah-vasquez",
+  "tags": ["Generator", "Teamwork", "Skill Checks"],
+  "summary": "Use earned tokens to reduce the effects of nearby teammates' failed skill checks.",
+  "image": ""
+},
+{
+  "id": "boon-exponential",
+  "name": "Boon: Exponential",
+  "survivorId": "jonah-vasquez",
+  "tags": ["Boon", "Recovery", "Support"],
+  "summary": "Bless a Totem to improve recovery and allow Survivors to recover from the dying state.",
+  "image": ""
+},
+{
+  "id": "parental-guidance",
+  "name": "Parental Guidance",
+  "survivorId": "yoichi-asakawa",
+  "tags": ["Stealth", "Stun", "Chase"],
+  "summary": "Conceal your scratch marks, blood pools and pain sounds after stunning the Killer.",
+  "image": ""
+},
+{
+  "id": "empathic-connection",
+  "name": "Empathic Connection",
+  "survivorId": "yoichi-asakawa",
+  "tags": ["Healing", "Aura Reading", "Support"],
+  "summary": "Allow injured teammates to see your aura and improve your healing speed.",
+  "image": ""
+},
+{
+  "id": "boon-dark-theory",
+  "name": "Boon: Dark Theory",
+  "survivorId": "yoichi-asakawa",
+  "tags": ["Boon", "Movement", "Support"],
+  "summary": "Bless a Totem to slightly increase the movement speed of nearby Survivors.",
+  "image": ""
+},
+{
+  "id": "inner-focus",
+  "name": "Inner Focus",
+  "survivorId": "haddie-kaur",
+  "tags": ["Aura Reading", "Information", "Injured"],
+  "summary": "Track nearby scratch marks and reveal the Killer after a nearby teammate loses health.",
+  "image": ""
+},
+{
+  "id": "residual-manifest",
+  "name": "Residual Manifest",
+  "survivorId": "haddie-kaur",
+  "tags": ["Blind", "Items", "Aura Protection"],
+  "summary": "Apply a temporary aura-reading penalty after successfully blinding the Killer.",
+  "image": ""
+},
+{
+  "id": "overzealous",
+  "name": "Overzealous",
+  "survivorId": "haddie-kaur",
+  "tags": ["Totem", "Generator", "Progress"],
+  "summary": "Gain improved generator-repair speed after cleansing or blessing a Totem.",
+  "image": ""
+},
+{
+  "id": "wiretap",
+  "name": "Wiretap",
+  "survivorId": "ada-wong",
+  "tags": ["Generator", "Aura Reading", "Information"],
+  "summary": "Install a device on a generator that reveals the Killer while they remain nearby.",
+  "image": ""
+},
+{
+  "id": "reactive-healing",
+  "name": "Reactive Healing",
+  "survivorId": "ada-wong",
+  "tags": ["Healing", "Injured", "Teamwork"],
+  "summary": "Gain healing progress when another nearby Survivor loses a health state.",
+  "image": ""
+},
+{
+  "id": "low-profile",
+  "name": "Low Profile",
+  "survivorId": "ada-wong",
+  "tags": ["Stealth", "Solo", "Endgame"],
+  "summary": "Conceal your tracks when you become the only active Survivor.",
+  "image": ""
+},
+{
+  "id": "better-than-new",
+  "name": "Better Than New",
+  "survivorId": "rebecca-chambers",
+  "tags": ["Healing", "Support", "Action Speed"],
+  "summary": "Grant a temporary action-speed benefit to Survivors after healing them.",
+  "image": ""
+},
+{
+  "id": "reassurance",
+  "name": "Reassurance",
+  "survivorId": "rebecca-chambers",
+  "tags": ["Hook", "Rescue", "Support"],
+  "summary": "Temporarily pause a nearby hooked Survivor's sacrifice progress.",
+  "image": ""
+},
+{
+  "id": "hyperfocus",
+  "name": "Hyperfocus",
+  "survivorId": "rebecca-chambers",
+  "tags": ["Generator", "Skill Checks", "Progress"],
+  "summary": "Chain successful great skill checks to increase their frequency and rewards.",
+  "image": ""
+},
+{
+  "id": "potential-energy",
+  "name": "Potential Energy",
+  "survivorId": "vittorio-toscano",
+  "tags": ["Generator", "Progress", "Tokens"],
+  "summary": "Store repair progress as tokens and transfer it to another generator.",
+  "image": ""
+},
+{
+  "id": "fogwise",
+  "name": "Fogwise",
+  "survivorId": "vittorio-toscano",
+  "tags": ["Generator", "Aura Reading", "Skill Checks"],
+  "summary": "Reveal the Killer's aura after completing a great generator skill check.",
+  "image": ""
+},
+{
+  "id": "quick-gambit",
+  "name": "Quick Gambit",
+  "survivorId": "vittorio-toscano",
+  "tags": ["Chase", "Generator", "Teamwork"],
+  "summary": "Improve teammates' generator repair speed while you are being chased nearby.",
+  "image": ""
 }
   ]
