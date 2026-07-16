@@ -92,3 +92,65 @@
     padding: 1.5rem;
   }
 }
+
+.survivor-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.survivor-filters .survivor-search {
+  flex: 1;
+  min-width: 260px;
+  margin-top: 0;
+}
+
+.survivor-filter-select {
+  min-width: 200px;
+  padding: 1rem;
+  background-color: #191a1e;
+  border: 1px solid #36383f;
+  border-radius: 0.45rem;
+  color: #ffffff;
+  outline: none;
+}
+
+.survivor-filter-select:focus {
+  border-color: #b83939;
+}
+
+.clear-survivor-filters {
+  padding: 0 1.15rem;
+  background-color: #292b31;
+  border: 1px solid #444750;
+  border-radius: 0.45rem;
+  color: #ffffff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.clear-survivor-filters:hover:not(:disabled) {
+  background-color: #34373e;
+}
+
+.clear-survivor-filters:disabled {
+  cursor: not-allowed;
+  opacity: 0.45;
+}
+
+@media (max-width: 800px) {
+  .survivor-filters {
+    flex-direction: column;
+  }
+
+  .survivor-search,
+  .survivor-filter-select,
+  .clear-survivor-filters {
+    width: 100%;
+  }
+
+  .clear-survivor-filters {
+    padding: 1rem;
+  }
+}
