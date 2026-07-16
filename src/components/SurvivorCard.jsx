@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function SurvivorCard({ survivor, perks }) {
   const survivorPerks = survivor.perkIds
     .map((perkId) => perks.find((perk) => perk.id === perkId))
@@ -14,7 +16,9 @@ function SurvivorCard({ survivor, perks }) {
       )}
 
       <div className="survivor-card__header">
-        <span className="survivor-card__role">{survivor.role}</span>
+        <span className="survivor-card__role">
+          {survivor.role}
+        </span>
       </div>
 
       <h2>{survivor.name}</h2>
@@ -32,6 +36,13 @@ function SurvivorCard({ survivor, perks }) {
           ))}
         </ul>
       </div>
+
+      <Link
+        className="survivor-card__link"
+        to={`/survivors/${survivor.id}`}
+      >
+        View Survivor
+      </Link>
     </article>
   );
 }

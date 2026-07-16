@@ -1,0 +1,107 @@
+.survivor-details {
+  padding: 3rem;
+}
+
+.details-back-link {
+  display: inline-block;
+  margin-bottom: 2rem;
+  color: #c8c9ce;
+  font-weight: 700;
+}
+
+.details-back-link:hover {
+  color: #ffffff;
+}
+
+.survivor-details__header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  max-width: 950px;
+  padding: 2.5rem;
+  background-color: #191a1e;
+  border: 1px solid #32343a;
+  border-radius: 0.75rem;
+}
+
+.survivor-details__image {
+  width: 220px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 0.6rem;
+}
+
+.survivor-details__role {
+  margin: 0 0 0.75rem;
+  color: #c84444;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.14rem;
+  text-transform: uppercase;
+}
+
+.survivor-details__header h1 {
+  margin: 0;
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+}
+
+.survivor-details__description {
+  max-width: 650px;
+  color: #a9abb2;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.survivor-details__perks {
+  margin-top: 3rem;
+}
+
+.survivor-perk-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.survivor-not-found {
+  max-width: 650px;
+  padding: 2rem;
+  background-color: #191a1e;
+  border: 1px solid #32343a;
+  border-radius: 0.6rem;
+}
+
+.survivor-not-found h1 {
+  margin-top: 0;
+}
+
+.survivor-not-found p {
+  color: #a9abb2;
+}
+
+@media (max-width: 950px) {
+  .survivor-details__header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .survivor-perk-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .survivor-details {
+    padding: 1.5rem;
+  }
+
+  .survivor-details__header {
+    padding: 1.5rem;
+  }
+
+  .survivor-details__image {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+  }
+}
