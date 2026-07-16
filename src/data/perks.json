@@ -526,5 +526,149 @@
   "tags": ["Generator", "Protection", "Utility"],
   "summary": "Block a generator temporarily after repairing for enough time.",
   "image": ""
+},
+{
+  "id": "visionary",
+  "name": "Visionary",
+  "survivorId": "felix-richter",
+  "tags": ["Aura Reading", "Generator", "Objectives"],
+  "summary": "Reveal the auras of nearby generators while searching for your next objective.",
+  "image": ""
+},
+{
+  "id": "desperate-measures",
+  "name": "Desperate Measures",
+  "survivorId": "felix-richter",
+  "tags": ["Healing", "Rescue", "Support"],
+  "summary": "Perform healing and unhooking actions faster for each injured or hooked Survivor.",
+  "image": ""
+},
+{
+  "id": "built-to-last",
+  "name": "Built to Last",
+  "survivorId": "felix-richter",
+  "tags": ["Items", "Locker", "Utility"],
+  "summary": "Restore part of a depleted item's charges by spending time inside a locker.",
+  "image": ""
+},
+{
+  "id": "appraisal",
+  "name": "Appraisal",
+  "survivorId": "elodie-rakoto",
+  "tags": ["Items", "Chest", "Scavenging"],
+  "summary": "Search opened chests again to obtain additional items during the trial.",
+  "image": ""
+},
+{
+  "id": "deception",
+  "name": "Deception",
+  "survivorId": "elodie-rakoto",
+  "tags": ["Stealth", "Distraction", "Locker"],
+  "summary": "Pretend to enter a locker while concealing your scratch marks and blood pools.",
+  "image": ""
+},
+{
+  "id": "power-struggle",
+  "name": "Power Struggle",
+  "survivorId": "elodie-rakoto",
+  "tags": ["Pallet", "Wiggle", "Second Chance"],
+  "summary": "Drop a nearby pallet while being carried after gaining enough wiggle progress.",
+  "image": ""
+},
+{
+  "id": "fast-track",
+  "name": "Fast Track",
+  "survivorId": "yun-jin-lee",
+  "tags": ["Generator", "Skill Checks", "Progress"],
+  "summary": "Gain tokens when teammates are hooked and spend them on a successful generator skill check.",
+  "image": ""
+},
+{
+  "id": "smash-hit",
+  "name": "Smash Hit",
+  "survivorId": "yun-jin-lee",
+  "tags": ["Exhaustion", "Chase", "Pallet"],
+  "summary": "Gain a burst of speed after stunning the Killer with a pallet.",
+  "image": ""
+},
+{
+  "id": "self-preservation",
+  "name": "Self-Preservation",
+  "survivorId": "yun-jin-lee",
+  "tags": ["Stealth", "Injured", "Chase"],
+  "summary": "Temporarily conceal your scratch marks, blood pools and pain sounds when a nearby teammate is hit.",
+  "image": ""
+},
+{
+  "id": "counterforce",
+  "name": "Counterforce",
+  "survivorId": "jill-valentine",
+  "tags": ["Totem", "Aura Reading", "Objectives"],
+  "summary": "Cleanse Totems faster and reveal the location of another distant Totem.",
+  "image": ""
+},
+{
+  "id": "resurgence",
+  "name": "Resurgence",
+  "survivorId": "jill-valentine",
+  "tags": ["Healing", "Unhook", "Recovery"],
+  "summary": "Immediately gain healing progress after being rescued from a hook.",
+  "image": ""
+},
+{
+  "id": "blast-mine",
+  "name": "Blast Mine",
+  "survivorId": "jill-valentine",
+  "tags": ["Generator", "Stun", "Disruption"],
+  "summary": "Install a trap on a generator that blinds and stuns the Killer when they damage it.",
+  "image": ""
+},
+{
+  "id": "bite-the-bullet",
+  "name": "Bite the Bullet",
+  "survivorId": "leon-s-kennedy",
+  "tags": ["Healing", "Stealth", "Support"],
+  "summary": "Suppress healing noises and reduce the penalty caused by failed healing skill checks.",
+  "image": ""
+},
+{
+  "id": "flashbang",
+  "name": "Flashbang",
+  "survivorId": "leon-s-kennedy",
+  "tags": ["Generator", "Blind", "Item"],
+  "summary": "Create a Flash Grenade inside a locker after completing enough generator repairs.",
+  "image": ""
+},
+{
+  "id": "rookie-spirit",
+  "name": "Rookie Spirit",
+  "survivorId": "leon-s-kennedy",
+  "tags": ["Aura Reading", "Generator", "Information"],
+  "summary": "Reveal generators that are currently losing repair progress.",
+  "image": ""
+},
+{
+  "id": "clairvoyance",
+  "name": "Clairvoyance",
+  "survivorId": "mikaela-reid",
+  "tags": ["Aura Reading", "Totem", "Information"],
+  "summary": "After cleansing a Totem, reveal important nearby objects while empty-handed.",
+  "image": ""
+},
+{
+  "id": "boon-circle-of-healing",
+  "name": "Boon: Circle of Healing",
+  "survivorId": "mikaela-reid",
+  "tags": ["Boon", "Healing", "Support"],
+  "summary": "Bless a Totem to create an area that improves healing support for Survivors.",
+  "image": ""
+},
+{
+  "id": "boon-shadow-step",
+  "name": "Boon: Shadow Step",
+  "survivorId": "mikaela-reid",
+  "tags": ["Boon", "Stealth", "Aura Protection"],
+  "summary": "Bless a Totem to conceal nearby Survivors' scratch marks and protect their auras.",
+  "image": ""
 }
   ]

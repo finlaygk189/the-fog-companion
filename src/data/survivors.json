@@ -262,5 +262,77 @@
     "repressed-alliance"
   ],
   "image": ""
+},
+{
+  "id": "felix-richter",
+  "name": "Felix Richter",
+  "role": "Resourceful Architect",
+  "description": "A methodical architect who plans objectives and helps teammates recover efficiently.",
+  "perkIds": [
+    "visionary",
+    "desperate-measures",
+    "built-to-last"
+  ],
+  "image": ""
+},
+{
+  "id": "elodie-rakoto",
+  "name": "Élodie Rakoto",
+  "role": "Clever Investigator",
+  "description": "A determined investigator who uses deception, items and environmental opportunities.",
+  "perkIds": [
+    "appraisal",
+    "deception",
+    "power-struggle"
+  ],
+  "image": ""
+},
+{
+  "id": "yun-jin-lee",
+  "name": "Yun-Jin Lee",
+  "role": "Ambitious Producer",
+  "description": "An ambitious producer who adapts quickly and prioritises her own survival.",
+  "perkIds": [
+    "fast-track",
+    "smash-hit",
+    "self-preservation"
+  ],
+  "image": ""
+},
+{
+  "id": "jill-valentine",
+  "name": "Jill Valentine",
+  "role": "Experienced Operative",
+  "description": "A skilled operative who disrupts the Killer and recovers quickly from danger.",
+  "perkIds": [
+    "counterforce",
+    "resurgence",
+    "blast-mine"
+  ],
+  "image": ""
+},
+{
+  "id": "leon-s-kennedy",
+  "name": "Leon S. Kennedy",
+  "role": "Resolute Rookie",
+  "description": "A determined police officer who supports teammates and creates improvised tools.",
+  "perkIds": [
+    "bite-the-bullet",
+    "flashbang",
+    "rookie-spirit"
+  ],
+  "image": ""
+},
+{
+  "id": "mikaela-reid",
+  "name": "Mikaela Reid",
+  "role": "Mystical Storyteller",
+  "description": "A creative storyteller who uses clairvoyance and Boon Totems to support her team.",
+  "perkIds": [
+    "clairvoyance",
+    "boon-circle-of-healing",
+    "boon-shadow-step"
+  ],
+  "image": ""
 }
   ]
