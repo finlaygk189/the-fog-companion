@@ -334,5 +334,197 @@
     "tags": ["Healing", "Skill Checks"],
     "summary": "Gain increasingly powerful healing skill checks as the trial progresses.",
     "image": ""
-  }
+  },
+  {
+  "id": "breakdown",
+  "name": "Breakdown",
+  "survivorId": "jeff-johansen",
+  "tags": ["Hook", "Aura Reading", "Disruption"],
+  "summary": "Temporarily break the hook you were rescued from and reveal the Killer's aura.",
+  "image": ""
+},
+{
+  "id": "aftercare",
+  "name": "Aftercare",
+  "survivorId": "jeff-johansen",
+  "tags": ["Aura Reading", "Teamwork", "Support"],
+  "summary": "Create mutual aura-reading connections with Survivors you have helped.",
+  "image": ""
+},
+{
+  "id": "distortion",
+  "name": "Distortion",
+  "survivorId": "jeff-johansen",
+  "tags": ["Stealth", "Aura Protection"],
+  "summary": "Consume tokens to prevent the Killer from reading your aura.",
+  "image": ""
+},
+{
+  "id": "solidarity",
+  "name": "Solidarity",
+  "survivorId": "jane-romero",
+  "tags": ["Healing", "Support"],
+  "summary": "Partially heal yourself while healing another Survivor without a med-kit.",
+  "image": ""
+},
+{
+  "id": "poised",
+  "name": "Poised",
+  "survivorId": "jane-romero",
+  "tags": ["Stealth", "Generator"],
+  "summary": "Hide your scratch marks briefly after a generator is completed.",
+  "image": ""
+},
+{
+  "id": "head-on",
+  "name": "Head On",
+  "survivorId": "jane-romero",
+  "tags": ["Exhaustion", "Stun", "Chase"],
+  "summary": "Leave a locker quickly to stun the Killer when correctly positioned.",
+  "image": ""
+},
+{
+  "id": "flip-flop",
+  "name": "Flip-Flop",
+  "survivorId": "ashley-j-williams",
+  "tags": ["Recovery", "Wiggle"],
+  "summary": "Convert part of your recovery progress into wiggle progress when picked up.",
+  "image": ""
+},
+{
+  "id": "buckle-up",
+  "name": "Buckle Up",
+  "survivorId": "ashley-j-williams",
+  "tags": ["Recovery", "Aura Reading", "Support"],
+  "summary": "Gain information while helping a Survivor recover from the dying state.",
+  "image": ""
+},
+{
+  "id": "mettle-of-man",
+  "name": "Mettle of Man",
+  "survivorId": "ashley-j-williams",
+  "tags": ["Protection", "Second Chance"],
+  "summary": "Earn protection-based progress toward surviving an additional hit.",
+  "image": ""
+},
+{
+  "id": "better-together",
+  "name": "Better Together",
+  "survivorId": "nancy-wheeler",
+  "tags": ["Generator", "Aura Reading", "Teamwork"],
+  "summary": "Reveal the generator you are repairing to nearby Survivors.",
+  "image": ""
+},
+{
+  "id": "fixated",
+  "name": "Fixated",
+  "survivorId": "nancy-wheeler",
+  "tags": ["Movement", "Information", "Stealth"],
+  "summary": "See your own scratch marks and walk more quickly.",
+  "image": ""
+},
+{
+  "id": "inner-strength",
+  "name": "Inner Strength",
+  "survivorId": "nancy-wheeler",
+  "tags": ["Healing", "Totem", "Self-Sufficiency"],
+  "summary": "Cleanse a totem and later heal yourself while hiding inside a locker.",
+  "image": ""
+},
+{
+  "id": "babysitter",
+  "name": "Babysitter",
+  "survivorId": "steve-harrington",
+  "tags": ["Rescue", "Stealth", "Support"],
+  "summary": "Help a rescued Survivor conceal their trail and gain information about the Killer.",
+  "image": ""
+},
+{
+  "id": "camaraderie",
+  "name": "Camaraderie",
+  "survivorId": "steve-harrington",
+  "tags": ["Hook", "Teamwork", "Support"],
+  "summary": "Pause the struggle timer when a teammate approaches while you are hooked.",
+  "image": ""
+},
+{
+  "id": "second-wind",
+  "name": "Second Wind",
+  "survivorId": "steve-harrington",
+  "tags": ["Healing", "Rescue", "Recovery"],
+  "summary": "Earn delayed healing after helping another Survivor and later being unhooked.",
+  "image": ""
+},
+{
+  "id": "lucky-break",
+  "name": "Lucky Break",
+  "survivorId": "yui-kimura",
+  "tags": ["Stealth", "Injured", "Chase"],
+  "summary": "Temporarily hide blood pools and scratch marks after becoming injured.",
+  "image": ""
+},
+{
+  "id": "any-means-necessary",
+  "name": "Any Means Necessary",
+  "survivorId": "yui-kimura",
+  "tags": ["Pallet", "Utility", "Aura Reading"],
+  "summary": "Reset dropped pallets and reveal their auras.",
+  "image": ""
+},
+{
+  "id": "breakout",
+  "name": "Breakout",
+  "survivorId": "yui-kimura",
+  "tags": ["Wiggle", "Support", "Movement"],
+  "summary": "Help a carried Survivor wiggle free by remaining near the Killer.",
+  "image": ""
+},
+{
+  "id": "off-the-record",
+  "name": "Off the Record",
+  "survivorId": "zarina-kassir",
+  "tags": ["Anti-Tunnel", "Stealth", "Second Chance"],
+  "summary": "Gain protection and concealment after being unhooked.",
+  "image": ""
+},
+{
+  "id": "red-herring",
+  "name": "Red Herring",
+  "survivorId": "zarina-kassir",
+  "tags": ["Distraction", "Generator", "Stealth"],
+  "summary": "Create a misleading generator noise notification after entering a locker.",
+  "image": ""
+},
+{
+  "id": "for-the-people",
+  "name": "For the People",
+  "survivorId": "zarina-kassir",
+  "tags": ["Healing", "Sacrifice", "Support"],
+  "summary": "Instantly transfer a health state to another Survivor at a personal cost.",
+  "image": ""
+},
+{
+  "id": "soul-guard",
+  "name": "Soul Guard",
+  "survivorId": "cheryl-mason",
+  "tags": ["Recovery", "Endurance", "Second Chance"],
+  "summary": "Gain brief protection after recovering from the dying state.",
+  "image": ""
+},
+{
+  "id": "blood-pact",
+  "name": "Blood Pact",
+  "survivorId": "cheryl-mason",
+  "tags": ["Obsession", "Aura Reading", "Teamwork"],
+  "summary": "Create an aura and movement-speed connection with the Obsession.",
+  "image": ""
+},
+{
+  "id": "repressed-alliance",
+  "name": "Repressed Alliance",
+  "survivorId": "cheryl-mason",
+  "tags": ["Generator", "Protection", "Utility"],
+  "summary": "Block a generator temporarily after repairing for enough time.",
+  "image": ""
+}
   ]

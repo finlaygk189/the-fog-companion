@@ -166,5 +166,101 @@
       "autodidact"
     ],
     "image": ""
-  }
+  },
+  {
+  "id": "jeff-johansen",
+  "name": "Jeff Johansen",
+  "role": "Quiet Artist",
+  "description": "A reserved artist who protects teammates and conceals information from the Killer.",
+  "perkIds": [
+    "breakdown",
+    "aftercare",
+    "distortion"
+  ],
+  "image": ""
+},
+{
+  "id": "jane-romero",
+  "name": "Jane Romero",
+  "role": "Influential Performer",
+  "description": "A confident performer who distracts the Killer and supports nearby teammates.",
+  "perkIds": [
+    "solidarity",
+    "poised",
+    "head-on"
+  ],
+  "image": ""
+},
+{
+  "id": "ashley-j-williams",
+  "name": "Ashley J. Williams",
+  "role": "Reluctant Hero",
+  "description": "A determined hero who survives through resilience, improvisation and confidence.",
+  "perkIds": [
+    "flip-flop",
+    "buckle-up",
+    "mettle-of-man"
+  ],
+  "image": ""
+},
+{
+  "id": "nancy-wheeler",
+  "name": "Nancy Wheeler",
+  "role": "Aspiring Journalist",
+  "description": "A determined investigator who gathers information and recovers efficiently.",
+  "perkIds": [
+    "better-together",
+    "fixated",
+    "inner-strength"
+  ],
+  "image": ""
+},
+{
+  "id": "steve-harrington",
+  "name": "Steve Harrington",
+  "role": "Protective Ally",
+  "description": "A protective teammate who specialises in rescues and supporting others.",
+  "perkIds": [
+    "babysitter",
+    "camaraderie",
+    "second-wind"
+  ],
+  "image": ""
+},
+{
+  "id": "yui-kimura",
+  "name": "Yui Kimura",
+  "role": "Resilient Racer",
+  "description": "A determined racer who helps teammates and interacts effectively with the environment.",
+  "perkIds": [
+    "lucky-break",
+    "any-means-necessary",
+    "breakout"
+  ],
+  "image": ""
+},
+{
+  "id": "zarina-kassir",
+  "name": "Zarina Kassir",
+  "role": "Resolute Filmmaker",
+  "description": "A courageous filmmaker who gathers information and protects vulnerable teammates.",
+  "perkIds": [
+    "off-the-record",
+    "red-herring",
+    "for-the-people"
+  ],
+  "image": ""
+},
+{
+  "id": "cheryl-mason",
+  "name": "Cheryl Mason",
+  "role": "Determined Survivor",
+  "description": "A determined Survivor whose unusual abilities affect objectives and protect teammates.",
+  "perkIds": [
+    "soul-guard",
+    "blood-pact",
+    "repressed-alliance"
+  ],
+  "image": ""
+}
   ]
