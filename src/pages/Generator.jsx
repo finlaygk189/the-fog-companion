@@ -15,6 +15,16 @@ function Generator() {
     return storedBuilds ? JSON.parse(storedBuilds) : [];
   });
 
+  const categories = [
+  "All",
+  ...new Set(perks.flatMap((perk) => perk.tags)),
+].sort((a, b) => {
+  if (a === "All") return -1;
+  if (b === "All") return 1;
+
+  return a.localeCompare(b);
+});
+
   useEffect(() => {
     localStorage.setItem("savedBuilds", JSON.stringify(savedBuilds));
   }, [savedBuilds]);
@@ -86,11 +96,11 @@ function Generator() {
           value={selectedCategory}
           onChange={(event) => setSelectedCategory(event.target.value)}
         >
-          <option value="All">Completely Random</option>
-          <option value="Chase">Chase</option>
-          <option value="Aura Reading">Aura Reading</option>
-          <option value="Exhaustion">Exhaustion</option>
-          <option value="Endgame">Endgame</option>
+          {categories.map((category) => (
+  <option key={category} value={category}>
+    {category === "All" ? "Completely Random" : category}
+  </option>
+))}
         </select>
 
         <button
