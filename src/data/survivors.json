@@ -538,5 +538,41 @@
     "shoulder-the-burden"
   ],
   "image": ""
+},
+{
+  "id": "orela-rose",
+  "name": "Orela Rose",
+  "role": "Calm Paramedic",
+  "description": "A dependable paramedic who protects teammates and responds quickly when they are in danger.",
+  "perkIds": [
+    "do-no-harm",
+    "duty-of-care",
+    "rapid-response"
+  ],
+  "image": ""
+},
+{
+  "id": "rick-grimes",
+  "name": "Rick Grimes",
+  "role": "Experienced Leader",
+  "description": "A battle-tested leader who protects injured teammates and adapts the environment to aid survival.",
+  "perkIds": [
+    "apocalyptic-ingenuity",
+    "come-and-get-me",
+    "teamwork-toughen-up"
+  ],
+  "image": ""
+},
+{
+  "id": "michonne-grimes",
+  "name": "Michonne Grimes",
+  "role": "Relentless Protector",
+  "description": "A resilient fighter who protects vulnerable teammates and creates opportunities to confront the Killer.",
+  "perkIds": [
+    "conviction",
+    "last-stand",
+    "teamwork-throw-down"
+  ],
+  "image": ""
 }
   ]

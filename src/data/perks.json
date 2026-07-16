@@ -1078,5 +1078,77 @@
   "tags": ["Hook", "Rescue", "Sacrifice"],
   "summary": "Transfer one hook state from a rescued Survivor to yourself at significant personal risk.",
   "image": ""
+},
+{
+  "id": "do-no-harm",
+  "name": "Do No Harm",
+  "survivorId": "orela-rose",
+  "tags": ["Healing", "Support", "Skill Checks"],
+  "summary": "Heal teammates faster based on how many hook stages they have accumulated.",
+  "image": ""
+},
+{
+  "id": "duty-of-care",
+  "name": "Duty of Care",
+  "survivorId": "orela-rose",
+  "tags": ["Protection", "Haste", "Support"],
+  "summary": "Taking a protection hit while healthy grants nearby teammates a temporary movement-speed boost.",
+  "image": ""
+},
+{
+  "id": "rapid-response",
+  "name": "Rapid Response",
+  "survivorId": "orela-rose",
+  "tags": ["Exhaustion", "Aura Reading", "Information"],
+  "summary": "Reveal the Killer briefly whenever you become Exhausted and allow a rushed locker exit to trigger Exhaustion.",
+  "image": ""
+},
+{
+  "id": "apocalyptic-ingenuity",
+  "name": "Apocalyptic Ingenuity",
+  "survivorId": "rick-grimes",
+  "tags": ["Chest", "Pallet", "Utility"],
+  "summary": "Rummage through chests to gain the ability to replace a broken pallet with a fragile pallet.",
+  "image": ""
+},
+{
+  "id": "come-and-get-me",
+  "name": "Come and Get Me!",
+  "survivorId": "rick-grimes",
+  "tags": ["Rescue", "Stealth", "Support"],
+  "summary": "After an unhook, draw attention to yourself while concealing nearby injured teammates.",
+  "image": ""
+},
+{
+  "id": "teamwork-toughen-up",
+  "name": "Teamwork: Toughen Up",
+  "survivorId": "rick-grimes",
+  "tags": ["Teamwork", "Stealth", "Injured"],
+  "summary": "After a nearby teammate stuns or blinds the Killer, conceal your pain sounds and tracks while injured.",
+  "image": ""
+},
+{
+  "id": "conviction",
+  "name": "Conviction",
+  "survivorId": "michonne-grimes",
+  "tags": ["Healing", "Recovery", "Second Chance"],
+  "summary": "Earn the ability to recover immediately from the dying state for a limited time after healing teammates.",
+  "image": ""
+},
+{
+  "id": "last-stand",
+  "name": "Last Stand",
+  "survivorId": "michonne-grimes",
+  "tags": ["Vault", "Stun", "Chase"],
+  "summary": "After spending time near the Killer outside a chase, perform a nearby fast vault to stun them.",
+  "image": ""
+},
+{
+  "id": "teamwork-throw-down",
+  "name": "Teamwork: Throw Down",
+  "survivorId": "michonne-grimes",
+  "tags": ["Teamwork", "Endurance", "Aura Reading"],
+  "summary": "Stunning the Killer grants nearby injured teammates protection and reveals the Killer to them.",
+  "image": ""
 }
   ]
