@@ -1,114 +1,146 @@
 [
   {
-    "id": 1,
-    "name": "Sprint Burst",
-    "survivor": "Meg Thomas",
-    "category": "Exhaustion",
-    "summary": "Gain a burst of speed when you begin running."
-  },
-  {
-    "id": 2,
-    "name": "Lithe",
-    "survivor": "Feng Min",
-    "category": "Exhaustion",
-    "summary": "Gain a burst of speed after performing a rushed vault."
-  },
-  {
-    "id": 3,
-    "name": "Balanced Landing",
-    "survivor": "Nea Karlsson",
-    "category": "Exhaustion",
-    "summary": "Reduce landing stagger and gain speed after falling."
-  },
-  {
-    "id": 4,
-    "name": "Dead Hard",
-    "survivor": "David King",
-    "category": "Exhaustion",
-    "summary": "Use a timed burst of endurance while injured."
-  },
-  {
-    "id": 5,
+    "id": "bond",
     "name": "Bond",
-    "survivor": "Dwight Fairfield",
-    "category": "Aura Reading",
-    "summary": "See the auras of nearby survivors."
+    "survivorId": "dwight-fairfield",
+    "tags": ["Aura Reading", "Information"],
+    "summary": "See the auras of nearby Survivors.",
+    "image": ""
   },
   {
-    "id": 6,
-    "name": "Kindred",
-    "survivor": "General",
-    "category": "Aura Reading",
-    "summary": "Reveal useful aura information while a survivor is hooked."
+    "id": "prove-thyself",
+    "name": "Prove Thyself",
+    "survivorId": "dwight-fairfield",
+    "tags": ["Generator", "Teamwork"],
+    "summary": "Improve cooperative repair efficiency when working with nearby Survivors.",
+    "image": ""
   },
   {
-    "id": 7,
-    "name": "Windows of Opportunity",
-    "survivor": "Kate Denson",
-    "category": "Aura Reading",
-    "summary": "See nearby pallets, windows and breakable walls."
+    "id": "leader",
+    "name": "Leader",
+    "survivorId": "dwight-fairfield",
+    "tags": ["Teamwork", "Support"],
+    "summary": "Improve certain action speeds for nearby teammates.",
+    "image": ""
   },
   {
-    "id": 8,
-    "name": "Empathy",
-    "survivor": "Claudette Morel",
-    "category": "Aura Reading",
-    "summary": "See the auras of injured or dying survivors at range."
-  },
-  {
-    "id": 9,
+    "id": "quick-and-quiet",
     "name": "Quick & Quiet",
-    "survivor": "Meg Thomas",
-    "category": "Chase",
-    "summary": "Hide the loud-noise notification from rushed actions."
+    "survivorId": "meg-thomas",
+    "tags": ["Chase", "Stealth"],
+    "summary": "Hide the loud-noise notification caused by a rushed action.",
+    "image": ""
   },
   {
-    "id": 10,
-    "name": "Dance With Me",
-    "survivor": "Kate Denson",
-    "category": "Chase",
-    "summary": "Hide scratch marks briefly after a fast vault or locker exit."
+    "id": "sprint-burst",
+    "name": "Sprint Burst",
+    "survivorId": "meg-thomas",
+    "tags": ["Exhaustion", "Chase"],
+    "summary": "Gain a burst of speed when you begin running.",
+    "image": ""
   },
   {
-    "id": 11,
-    "name": "Lightweight",
-    "survivor": "General",
-    "category": "Chase",
-    "summary": "Make scratch marks less consistent and easier to lose."
-  },
-  {
-    "id": 12,
-    "name": "Resilience",
-    "survivor": "General",
-    "category": "Chase",
-    "summary": "Perform several actions faster while injured."
-  },
-  {
-    "id": 13,
+    "id": "adrenaline",
     "name": "Adrenaline",
-    "survivor": "Meg Thomas",
-    "category": "Endgame",
-    "summary": "Recover and gain speed when the exit gates become powered."
+    "survivorId": "meg-thomas",
+    "tags": ["Endgame", "Healing", "Chase"],
+    "summary": "Recover and gain speed when the exit gates become powered.",
+    "image": ""
   },
   {
-    "id": 14,
-    "name": "Hope",
-    "survivor": "General",
-    "category": "Endgame",
-    "summary": "Gain increased movement speed after the exit gates are powered."
+    "id": "empathy",
+    "name": "Empathy",
+    "survivorId": "claudette-morel",
+    "tags": ["Aura Reading", "Healing", "Information"],
+    "summary": "See injured or dying Survivors from a distance.",
+    "image": ""
   },
   {
-    "id": 15,
-    "name": "Wake Up!",
-    "survivor": "Quentin Smith",
-    "category": "Endgame",
-    "summary": "See exit gates and open them faster during the endgame."
+    "id": "botany-knowledge",
+    "name": "Botany Knowledge",
+    "survivorId": "claudette-morel",
+    "tags": ["Healing", "Support"],
+    "summary": "Improve healing speed at the cost of reduced item efficiency.",
+    "image": ""
   },
   {
-    "id": 16,
-    "name": "No One Left Behind",
-    "survivor": "General",
-    "category": "Endgame",
-    "summary": "Gain rescue and healing bonuses after the gates are powered."
+    "id": "self-care",
+    "name": "Self-Care",
+    "survivorId": "claudette-morel",
+    "tags": ["Healing", "Self-Sufficiency"],
+    "summary": "Heal yourself without requiring a med-kit.",
+    "image": ""
+  },
+  {
+    "id": "iron-will",
+    "name": "Iron Will",
+    "survivorId": "jake-park",
+    "tags": ["Stealth", "Injured"],
+    "summary": "Reduce the volume of grunts of pain while injured.",
+    "image": ""
+  },
+  {
+    "id": "calm-spirit",
+    "name": "Calm Spirit",
+    "survivorId": "jake-park",
+    "tags": ["Stealth", "Utility"],
+    "summary": "Reduce interactions that reveal your location through screams or disturbed wildlife.",
+    "image": ""
+  },
+  {
+    "id": "saboteur",
+    "name": "Saboteur",
+    "survivorId": "jake-park",
+    "tags": ["Sabotage", "Aura Reading", "Support"],
+    "summary": "See nearby hooks and sabotage them without a toolbox.",
+    "image": ""
+  },
+  {
+    "id": "balanced-landing",
+    "name": "Balanced Landing",
+    "survivorId": "nea-karlsson",
+    "tags": ["Exhaustion", "Chase"],
+    "summary": "Reduce landing penalties and gain speed after falling.",
+    "image": ""
+  },
+  {
+    "id": "urban-evasion",
+    "name": "Urban Evasion",
+    "survivorId": "nea-karlsson",
+    "tags": ["Stealth", "Movement"],
+    "summary": "Move faster while crouching.",
+    "image": ""
+  },
+  {
+    "id": "streetwise",
+    "name": "Streetwise",
+    "survivorId": "nea-karlsson",
+    "tags": ["Items", "Support"],
+    "summary": "Reduce item-consumption rates for yourself and nearby teammates.",
+    "image": ""
+  },
+  {
+    "id": "technician",
+    "name": "Technician",
+    "survivorId": "feng-min",
+    "tags": ["Generator", "Stealth"],
+    "summary": "Reduce generator-repair noise and limit the consequences of failed skill checks.",
+    "image": ""
+  },
+  {
+    "id": "lithe",
+    "name": "Lithe",
+    "survivorId": "feng-min",
+    "tags": ["Exhaustion", "Chase"],
+    "summary": "Gain a burst of speed after performing a rushed vault.",
+    "image": ""
+  },
+  {
+    "id": "alert",
+    "name": "Alert",
+    "survivorId": "feng-min",
+    "tags": ["Aura Reading", "Information"],
+    "summary": "Reveal the Killer's aura after they perform certain destructive actions.",
+    "image": ""
   }
 ]

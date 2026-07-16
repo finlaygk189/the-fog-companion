@@ -1,44 +1,74 @@
 [
   {
-    "id": 1,
+    "id": "dwight-fairfield",
     "name": "Dwight Fairfield",
     "role": "Leader",
     "description": "A nervous leader who helps teammates work together.",
-    "perks": ["Bond", "Prove Thyself", "Leader"]
+    "perkIds": [
+      "bond",
+      "prove-thyself",
+      "leader"
+    ],
+    "image": ""
   },
   {
-    "id": 2,
+    "id": "meg-thomas",
     "name": "Meg Thomas",
     "role": "Athlete",
-    "description": "A fast survivor who specialises in escaping chases.",
-    "perks": ["Quick & Quiet", "Sprint Burst", "Adrenaline"]
+    "description": "A fast Survivor who specialises in escaping chases.",
+    "perkIds": [
+      "quick-and-quiet",
+      "sprint-burst",
+      "adrenaline"
+    ],
+    "image": ""
   },
   {
-    "id": 3,
+    "id": "claudette-morel",
     "name": "Claudette Morel",
     "role": "Medic",
     "description": "A caring botanist with strong healing abilities.",
-    "perks": ["Empathy", "Botany Knowledge", "Self-Care"]
+    "perkIds": [
+      "empathy",
+      "botany-knowledge",
+      "self-care"
+    ],
+    "image": ""
   },
   {
-    "id": 4,
+    "id": "jake-park",
     "name": "Jake Park",
     "role": "Saboteur",
     "description": "A resourceful survivalist who can disrupt the Killer.",
-    "perks": ["Iron Will", "Calm Spirit", "Saboteur"]
+    "perkIds": [
+      "iron-will",
+      "calm-spirit",
+      "saboteur"
+    ],
+    "image": ""
   },
   {
-    "id": 5,
+    "id": "nea-karlsson",
     "name": "Nea Karlsson",
     "role": "Urban Escape Artist",
-    "description": "An agile survivor who moves effectively around the environment.",
-    "perks": ["Balanced Landing", "Urban Evasion", "Streetwise"]
+    "description": "An agile Survivor who moves effectively around the environment.",
+    "perkIds": [
+      "balanced-landing",
+      "urban-evasion",
+      "streetwise"
+    ],
+    "image": ""
   },
   {
-    "id": 6,
+    "id": "feng-min",
     "name": "Feng Min",
     "role": "Focused Competitor",
     "description": "A determined gamer who specialises in quick reactions.",
-    "perks": ["Technician", "Lithe", "Alert"]
+    "perkIds": [
+      "technician",
+      "lithe",
+      "alert"
+    ],
+    "image": ""
   }
 ]

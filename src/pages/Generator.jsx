@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import perks from "../data/perks.json";
 import PerkCard from "../components/PerkCard";
+import survivors from "../data/survivors.json";
 import "../styles/generator.css";
 
 function Generator() {
@@ -26,7 +27,7 @@ function Generator() {
     const availablePerks =
       selectedCategory === "All"
         ? perks
-        : perks.filter((perk) => perk.category === selectedCategory);
+        : perks.filter((perk) => perk.tags.includes(selectedCategory))
 
     if (availablePerks.length < 4) {
       setGeneratedBuild([]);
@@ -41,6 +42,12 @@ function Generator() {
     setGeneratedBuild(randomBuild);
     setMessage("");
   }
+
+  function getSurvivorName(survivorId) {
+  return (
+    survivors.find((survivor) => survivor.id === survivorId)?.name ?? null
+  );
+}
 
   function saveBuild() {
     if (generatedBuild.length !== 4) {
@@ -119,7 +126,11 @@ function Generator() {
 
             <div className="generated-build">
               {generatedBuild.map((perk) => (
-                <PerkCard key={perk.id} perk={perk} />
+                <PerkCard
+                key={perk.id}
+                perk={perk}
+                survivorName={getSurvivorName(perk.survivorId)}
+              />
               ))}
             </div>
           </section>

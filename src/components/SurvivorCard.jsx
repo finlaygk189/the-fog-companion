@@ -1,9 +1,20 @@
-function SurvivorCard({ survivor }) {
+function SurvivorCard({ survivor, perks }) {
+  const survivorPerks = survivor.perkIds
+    .map((perkId) => perks.find((perk) => perk.id === perkId))
+    .filter(Boolean);
+
   return (
     <article className="survivor-card">
+      {survivor.image && (
+        <img
+          className="survivor-card__image"
+          src={survivor.image}
+          alt={survivor.name}
+        />
+      )}
+
       <div className="survivor-card__header">
         <span className="survivor-card__role">{survivor.role}</span>
-        <span className="survivor-card__id">#{survivor.id}</span>
       </div>
 
       <h2>{survivor.name}</h2>
@@ -16,8 +27,8 @@ function SurvivorCard({ survivor }) {
         <h3>Unique Perks</h3>
 
         <ul>
-          {survivor.perks.map((perk) => (
-            <li key={perk}>{perk}</li>
+          {survivorPerks.map((perk) => (
+            <li key={perk.id}>{perk.name}</li>
           ))}
         </ul>
       </div>
